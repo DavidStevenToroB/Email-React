@@ -1,0 +1,78 @@
+
+form {
+   border-radius: 30px;
+   padding: 50px;
+   box-shadow: 0 1px 15px rgb(255, 255, 255);
+   width: 300px;
+ }
+ 
+ h2 {
+   text-align: center;
+   color: #00c9ff;
+   font-size: 35px;
+ }
+ 
+ p {
+   text-align: center;
+   color: #a1aaaa;
+   margin-bottom: 20px;
+ }
+ 
+ fieldset {
+   border: none;
+   margin-bottom: 15px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+   color: #007e9f;
+   font-weight: bold;
+ }
+ 
+ input, textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #eae8e8;
+   border-radius: 4px;
+   font-size: 15px;
+   box-sizing: border-box;
+ }
+ 
+ input:focus, textarea:focus {
+   border-color: #b600ff;
+   outline: none;
+ }
+ 
+ textarea {
+   resize: none;
+   height: 100px;
+ }
+ 
+ button {
+   width: 100%;
+   padding: 10px;
+   background-color: #b600ff;
+   color: white;
+   border: none;
+   border-radius: 100px;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ button:hover {
+   background-color: #68ff00;
+ }
+
+ #divAlert{
+   width: 300px;
+   height: 35px;
+   position: absolute;
+   top: 3px;
+   left: 1px;
+   border-radius: 0 30px 30px 0;
+   font-size: 20px;
+   color: white;
+ }
